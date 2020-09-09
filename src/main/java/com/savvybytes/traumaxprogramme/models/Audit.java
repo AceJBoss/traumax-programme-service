@@ -1,4 +1,4 @@
-package com.jboss.blog.models;
+package com.savvybytes.traumaxprogramme.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
@@ -11,6 +11,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
